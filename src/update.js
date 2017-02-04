@@ -160,6 +160,7 @@ function startUpdate(version) {
  */
 
 export default function update() {
+  return false;
   Log.info('Checking for updates');
   return cRequest({
     url: 'https://raw.githubusercontent.com/dustinblackman/Championify/master/package.json',
